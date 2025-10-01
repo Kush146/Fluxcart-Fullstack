@@ -9,11 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4  # Checkout your code
-      - uses: pnpm/action-setup@v4  # Install pnpm
-        with:
-          version: '9'  # Make sure you're using the correct version of pnpm
       - uses: actions/setup-node@v4  # Setup Node.js version
         with:
           node-version: '18'
+      - run: npm install -g pnpm  # Install pnpm globally
       - run: pnpm install  # Install dependencies
       - run: pnpm build  # Build the project
