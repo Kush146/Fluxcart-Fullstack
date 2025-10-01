@@ -1,21 +1,19 @@
 name: ci
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      # Install pnpm first
-      - uses: pnpm/action-setup@v4
+      - uses: actions/checkout@v4  # Checkout your code
+      - uses: pnpm/action-setup@v4  # Install pnpm
         with:
-          version: 9  # Make sure this is the correct version of pnpm
-      - uses: actions/setup-node@v4
+          version: '9'  # Make sure you're using the correct version of pnpm
+      - uses: actions/setup-node@v4  # Setup Node.js version
         with:
-          node-version: 18
-      # Install dependencies with pnpm
-      - run: pnpm install
-      - run: pnpm build
+          node-version: '18'
+      - run: pnpm install  # Install dependencies
+      - run: pnpm build  # Build the project
