@@ -9,9 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-     
+      # Install pnpm first
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9  # Make sure this is the correct version of pnpm
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+      # Install dependencies with pnpm
       - run: pnpm install
       - run: pnpm build
