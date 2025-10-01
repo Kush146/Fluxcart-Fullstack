@@ -1,0 +1,13 @@
+id,title,slug,description,priceCents,currency,rating,images,stock,category
+,Classic White Tee,classic-white-tee,Soft cotton crew neck tee,49900,INR,4.6,https://picsum.photos/seed/tee1/600|https://picsum.photos/seed/tee2/600,300,Apparel
+,Denim Jacket,denim-jacket,Everyday denim with pockets,249900,INR,4.5,https://picsum.photos/seed/denim/600,120,Apparel
+,Sneakers Low,low-sneakers,Minimal sneakers for daily wear,329900,INR,4.4,https://picsum.photos/seed/sneak/600,80,Footwear
+,Running Shoes,run-shoes,Cushioned lightweight runners,459900,INR,4.7,https://picsum.photos/seed/run/600,70,Footwear
+,Bluetooth Speaker,bluetooth-speaker,Portable 12h battery life,199900,INR,4.5,https://picsum.photos/seed/speaker/600,90,Electronics
+,Wireless Earbuds,wireless-earbuds,ANC true wireless earbuds,599900,INR,4.3,https://picsum.photos/seed/ear/600,110,Electronics
+,4K Smart TV,smart-tv-50,50-inch 4K HDR smart TV,3499900,INR,4.2,https://picsum.photos/seed/tv/600,25,Electronics
+,Coffee Grinder,coffee-grinder,Conical burr grinder,159900,INR,4.6,https://picsum.photos/seed/grind/600,60,Home
+,Chef Knife,chef-knife,8-inch stainless chef knife,99900,INR,4.8,https://picsum.photos/seed/knife/600,140,Home
+,Office Chair,office-chair,Ergonomic mesh with lumbar,899900,INR,4.1,https://picsum.photos/seed/chair/600,50,Furniture
+,Study Desk,study-desk,120cm laminated desk,749900,INR,4.4,https://picsum.photos/seed/desk/600,35,Furniture
+,Water Bottle,steel-bottle,Insulated 1L stainless bottle,79900,INR,4.5,https://picsum.photos/seed/bottle/600,200,Outdoors

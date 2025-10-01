@@ -1,0 +1,16 @@
+{
+  "name": "fluxcart",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2",
+    "tsx": "^4.16.2",
+    "turbo": "^2.0.0"
+  }
+}

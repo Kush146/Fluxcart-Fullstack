@@ -1,0 +1,13 @@
+# .gitignore
+
+# Ignore .env files
+.env
+.env.local
+
+# Ignore node_modules
+node_modules/
+
+# Other common folders to ignore
+dist/
+build/
+.DS_Store
